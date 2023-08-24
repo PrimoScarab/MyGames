@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - scareCam
+  - Handman2D
+  - paper1
+  - paper2
+  - paper3
+  - paper4
+  - paper5
+  - paper6
+  - paper7
+  - paper8
+  - ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - whatIsGround
+  - Water
+  - UI
+  - interactible
+  - Handman
+  - Bounds
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

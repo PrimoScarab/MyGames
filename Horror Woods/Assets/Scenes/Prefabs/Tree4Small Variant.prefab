@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8349525092688428532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 103068, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_Name
+      value: Tree4Small Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 103068, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.028484454
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.028484454
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.028484454
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000011444092
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -117.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432458, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+--- !u!1 &8349525092688392040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 103068, guid: a013b9ccd49015443898eda701c8f501, type: 3}
+  m_PrefabInstance: {fileID: 8349525092688428532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1036101928
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349525092688392040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 25.3388
+  m_Height: 705.9237
+  m_Direction: 1
+  m_Center: {x: -3.9489691, y: 351.78503, z: -5.8539186}
+--- !u!208 &1036101932
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349525092688392040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 20, y: 352.962, z: 20}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -2.6, y: 351.785, z: 0}
+  m_TimeToStationary: 0.5

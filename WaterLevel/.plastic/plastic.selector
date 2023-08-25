@@ -1,0 +1,4 @@
+repository "Designperspektiv@Designperspektiv@cloud"
+  path "/"
+    br "/main"
+    co "/main"

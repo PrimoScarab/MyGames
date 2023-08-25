@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{05ef5a30-9319-4378-a1cb-1e0e31199ab9}">
+		<property name="assetPath">
+			<value>Grubb8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5376041666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23e76423-28fb-4c1b-a2b1-ec54b609ed94}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c1c7ce43-1c80-4a06-a6ad-f3fb0fd656d6}">
+		<property name="assetPath">
+			<value>Hoovra1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.0869583333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23e76423-28fb-4c1b-a2b1-ec54b609ed94}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,296 @@
+{
+    "name": "SteeringWheel",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "2020a636-87fd-4078-87c1-c1fc3c9471ee",
+            "actions": [
+                {
+                    "name": "Steer",
+                    "type": "Value",
+                    "id": "6ef94ac2-cccd-4851-bd8d-d4ae7b4bfaeb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Gas",
+                    "type": "Value",
+                    "id": "988b18b5-0434-460b-9881-4d21b63e9e3d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Brake",
+                    "type": "Value",
+                    "id": "6355a13d-d7a1-4d77-a941-8bf75af1e21e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GearUp",
+                    "type": "Value",
+                    "id": "f5f33ab9-6ca5-4812-998d-e1509eb74d07",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GearDown",
+                    "type": "Value",
+                    "id": "b769c011-af84-4870-b738-a7caf986c537",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksUp",
+                    "type": "Value",
+                    "id": "d38bbed4-ea00-4bac-b261-c50d85825453",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksDown",
+                    "type": "Value",
+                    "id": "286f8496-060f-41f5-9037-7aa839729269",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TiltUp",
+                    "type": "Value",
+                    "id": "4d846e73-de7b-4bc6-b7c1-69fb0c9be43c",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TiltDown",
+                    "type": "Value",
+                    "id": "e567587f-a710-41e3-8d1f-70332b5ba240",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksLeft",
+                    "type": "Value",
+                    "id": "c3273c63-3bd6-4d9a-8438-b74defd61dda",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksRight",
+                    "type": "Value",
+                    "id": "b81dc998-4452-4c59-8342-686fff4284ab",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksSplit",
+                    "type": "Value",
+                    "id": "fbfaf204-3c44-4f47-a2e2-4a9c0c86e115",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForksClamp",
+                    "type": "Value",
+                    "id": "25338845-9e5c-46b4-865f-5a6ecc5adb89",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2490af7d-78f0-42c0-b11b-14678c511c5e",
+                    "path": "<HID::Driving Force GT>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GearUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb0b7ebc-5f34-4174-a182-2922c01066cd",
+                    "path": "<HID::Driving Force GT>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GearDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "SteerLeft/Right",
+                    "id": "8e0b2d5f-0de5-4395-9533-3cf7135fc22a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b67f90b8-4d87-4009-a724-35bd1a2eb635",
+                    "path": "<HID::Driving Force GT>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b42c1d39-4d73-4800-bb76-e2154bd966a2",
+                    "path": "<HID::Driving Force GT>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "0c3fbdaa-b3d9-4bf9-9903-62ddc30a9452",
+                    "path": "<HID::Driving Force GT>/z",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fc9fe25-477f-4f8d-b7f5-e9c5399b66a9",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c63ef0c3-02eb-402c-b652-a4318248fe9a",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99b539d5-8382-4f70-a607-9f18530646ef",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TiltUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "055b3796-6f52-44d2-a654-1cead7026ff0",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TiltDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da495602-741a-4f3c-8bc2-4a898f923692",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c81cf75-c61a-4586-8ee8-7f6086288aed",
+                    "path": "<HID::Teensyduino Serial/Keyboard/Mouse/Joystick>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2acb127b-2f55-4dc5-9ea8-5d12b8c15277",
+                    "path": "<HID::Driving Force GT>/rz",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25138e2f-104c-4b18-b293-befe8b49c838",
+                    "path": "<HID::Driving Force GT>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksSplit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59b0f2d9-8400-4c3d-8b67-66f90f7f08bb",
+                    "path": "<HID::Driving Force GT>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForksClamp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
